@@ -1,0 +1,115 @@
+(Loading /usr/share/perl5/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/eTeX.pool.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/pdfTeX.pool.ltxml... 0.01 sec) 0.19 sec)
+latexmlc (LaTeXML version 0.8.6)
+invoked as [/usr/bin/latexmlc main.tex --destination=main.epub --graphicimages]
+processing started Tue Dec 20 13:59:10 2022
+(Digesting TeX main...
+(Processing content /home/kali/Desktop/biology/main.tex...
+(Loading /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu... 0.04 sec) 0.26 sec) 0.48 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/book.cls.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/listings.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg... 0.01 sec) 0.12 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/amsbsy.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/amsgen.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amsopn.sty.ltxml... 0.01 sec) 0.06 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amsthm.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/blindtext.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/babel.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/config/language.def... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/txtbabel.def.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/babel_support.sty.ltxml... 0.01 sec) 0.02 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf... 0.16 sec) 1.36 sec) 1.36 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex...
+Info:latex:(babel)  Package babel Info: Importing
+	at babel-english.tex; line 11 col 0 - line 11 col 1
+	font and identification data for english\MessageBreakfrom babel-en.ini. Reported
+ 0.65 sec)
+Warning:missing_file:blindtext Can't find package blindtext
+	at blindtext.sty.ltxml; line 23
+	Anticipate undefined macros or environments
+	search paths are /home/kali/Desktop/biology, /home/kali/Desktop/biology
+	In Core::Gullet[@0x561e5dc38648] /usr/share/perl5/LaTeXML/Package/blindtext.sty.ltxml; line 23
+ 2.07 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/wrapfig.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.03 sec)
+Warning:missing_file:tcolorbox Can't find binding for package tcolorbox
+	at main.tex; line 9 col 15 - line 9 col 15
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+Warning:missing_file:mhchem Can't find binding for package mhchem
+	at main.tex; line 13 col 11 - line 13 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/LaTeXML/Package/stmaryrd.sty.ltxml... 0.04 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/adjustbox.sty.ltxml...
+Warning:missing_file:adjustbox Can't find package adjustbox
+	at adjustbox.sty.ltxml; line 18
+	Anticipate undefined macros or environments
+	In Core::Gullet[@0x561e5dc38648] /usr/share/perl5/LaTeXML/Package/adjustbox.sty.ltxml; line 18
+ 0.04 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/a4wide.sty.ltxml... 0.00 sec)
+Warning:missing_file:tcolorbox Can't find binding for package tcolorbox
+	at main.tex; line 17 col 11 - line 17 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/LaTeXML/Package/fontspec.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/xunicode.sty.ltxml... 0.01 sec) 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/parskip.sty.ltxml... 0.00 sec)
+Warning:missing_file:epic Can't find binding for package epic
+	at main.tex; line 26 col 11 - line 26 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+Warning:missing_file:eepicemu Can't find binding for package eepicemu
+	at main.tex; line 26 col 11 - line 26 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/LaTeXML/Package/graphics.sty.ltxml... 0.04 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/graphicx.sty.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/longtable.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/color.sty.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/makeidx.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/hyperref.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/keyval.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty... 0.02 sec) 0.03 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/nameref.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/url.sty.ltxml... 0.01 sec) 0.13 sec) 16.53 sec) 17.07 sec)
+(Building...
+(Loading compiled schema /usr/share/perl5/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.02 sec) 22.16 sec)
+(Rewriting... 0.02 sec)
+(Math Parsing 59 formulae ......
+Warning:not_parsed:UNKNOWN.CLOSE.UNKNOWN>CLOSE MathParser failed to match rule 'Anything'
+	at main.tex; line 1465 col 408 - line 1465 col 450
+	In "$f(e_{1},t_{1},e_{2},t_{2},...,e_{n},t_{n},t)A)$"
+	f[[UNKNOWN]] ([[OPEN]] e[[UNKNOWN]] _{1}[[POSTSUBSCRIPT]] ,[[PUNCT]] t[[UNKNOWN]] _{1}[[POSTSUBSCRIPT]] ,[[PUNCT]] e[[UNKNOWN]] _{2}[[POSTSUBSCRIPT]] ,[[PUNCT]] t[[UNKNOWN]] _{2}[[POSTSUBSCRIPT]] ,[[PUNCT]] ...[[ID]] ,[[PUNCT]] e[[UNKNOWN]] _{n}[[POSTSUBSCRIPT]] ,[[PUNCT]] t[[UNKNOWN]] _{n}[[POSTSUBSCRIPT]] ,[[PUNCT]] t[[UNKNOWN]] )[[CLOSE]] A[[UNKNOWN]]
+	        > )[[CLOSE]]
+ 0.74 sec)
+Math parsing succeeded:
+   ltx:XMath: 58/59
+   ltx:XMArg: 89/89
+Symbols assumed as simple identifiers (with # of occurences):
+   'A{italic}' (3), 'C{italic}' (4), 'E{italic}' (2), 'G{italic}' (7), 'a{italic}' (11), 'b{italic}' (10), 'c{italic}' (9), 'd{italic}' (2), 'e{italic}' (20), 'f{italic}' (11), 'n{italic}' (5), 'r{italic}' (1), 't{italic}' (20), 'x{italic}' (32), 'y{italic}' (2), 'z{italic}' (2)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.12 sec)
+Conversion complete: 8 warnings; 6 missing files[adjustbox.sty, mhchem.sty, blindtext.sty, epic.sty, eepicemu.sty, tcolorbox.sty]
+(post-processing...
+(Scan OPS/main.xhtml processing...
+Scan: DBStatus: 610/0 objects
+ 0.12 sec)
+(CrossRef OPS/main.xhtml processing... 0.05 sec)
+(Graphics OPS/main.xhtml 3 to process... 0.03 sec)
+(MathML::Presentation OPS/main.xhtml 59 to process...
+converted 59 Maths
+ 0.11 sec)
+(XSLT[using LaTeXML-epub3.xsl] OPS/main.xhtml processing... 0.12 sec)
+(Writer OPS/main.xhtml processing... 0.00 sec) 0.44 sec)
+Post-processing complete: No obvious problems
+processing finished Tue Dec 20 13:59:51 2022
+Status:conversion:1
